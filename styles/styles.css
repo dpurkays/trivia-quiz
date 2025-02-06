@@ -1,0 +1,67 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+    background-color: #F2F3F5;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    background-color: #2D2D2D;
+    color:#54BDDC;
+}
+
+.game-container {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 2rem;
+}
+
+.game-container__image {
+    width: 55%;
+    object-fit: cover;
+    height: auto;
+}
+
+.question {
+    font-size: 20px;
+}
+
+.answers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.answers__choice{
+    list-style-type: none;
+    background-color: #54BDDC;
+    color: #fff;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.question-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question-container__nextBtn {
+    padding: 0.375rem 0.75rem;
+    background-color: #2D2D2D;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    text-align: center;
+    color: #fff;
+}
+
+
